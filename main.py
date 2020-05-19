@@ -56,7 +56,7 @@ def hello():
         username = login_form.username.data
         session['username'] = username
 
-        
+        flash('Username registered successfully!')
 
         return redirect(url_for('index'))
 
