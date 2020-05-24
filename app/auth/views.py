@@ -37,7 +37,7 @@ def login():
             else:
                 flash('The information does not match')
         else:
-                flash('Username does not exist')
+            flash('Username does not exist')
 
         return redirect(url_for('index'))
 
